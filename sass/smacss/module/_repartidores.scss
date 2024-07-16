@@ -1,0 +1,32 @@
+.repartidores {
+    padding: 5rem 0;
+}
+
+.repartidores__heading {
+    text-align: center;
+    color: #455a64;
+}
+
+.repartidores__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.repartidores__texto {
+    line-height: 1.5;
+    color: #455a64;
+}
+
+.repartidores__enlace {
+    background-color: #e8505b;
+    font-size: 2rem;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    width: auto;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}

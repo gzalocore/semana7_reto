@@ -1,0 +1,45 @@
+.formulario__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+.pasos__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.testimoniales__grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+
+.favoritos__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.favorito__grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 4rem;
+}
+
+.repartidores__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+}
